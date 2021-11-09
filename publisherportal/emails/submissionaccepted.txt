@@ -1,0 +1,11 @@
+SUBJECT: Your submission has been accepted!
+
+BODY:
+
+Hello, [USER]
+
+We would like to inform you that your submission [SUBMISSION] has been accepted and will be on the website within the next few hours! Thanks for submitting!
+
+Please follow this link to sign into publisher portal: https://breakingnews.frindow.repl.co/publisherportal/selectuser.html
+
+- Breaking News
