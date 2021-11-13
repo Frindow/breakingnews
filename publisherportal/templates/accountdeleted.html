@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Publisher Home - Breaking News</title>
+  <title>Account Terminated - Breaking News</title>
   <link rel="shortcut icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
@@ -11,9 +11,9 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="">Breaking News - Publisher Portal</a>
+    <a class="navbar-brand" href="">Breaking News - Account Terminated</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -87,99 +87,8 @@
     <button class="btn btn-primary disabled" href = "mailto:mb10932@cherokeek12.net" type="button" target = "_BLANK">Send Email (Unavailable)</button>
   </div>
 </div>
-
-<div class="container-fluid mt-3">
-  <div class="alert alert-warning alert-dismissible fade show">
-    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-      <strong>Warning</strong> The publisher portal has just recently been released and is currently in a testing phase.
-  </div>
-<h3 style = "text-align: center">Welcome to the Breaking News publisher portal!</h3>
-<p style = "text-align: center">Please select a submission from the list below:</p>
-
-<div class="container mt-3">
-
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for submission.." title="Type in a name">
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-#myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
-}
-
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-}
-
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
-
-#myTable tr.header, #myTable tr:hover {
-  background-color: #f1f1f1;
-}
-</style>
-
-<table id="myTable">
-  <tbody><tr class="header">
-    <th style="width:60%;">Submission</th>
-    <th style="width:40%;"></th>
-  </tr>
-  <tr>
-    <td>Ayden Marusiodis reveals he is secretly Jojo Siwa</td>
-    <td><a href="/publisherportal/users/AydenMarusiodis/sub1.html">View Submission</a></td>
-  </tr>
-  <tr>
-    <td>Maddox moves forward on the chain.</td>
-    <td><a href="/publisherportal/users/AydenMarusiodis/sub2.html">View Submission</a></td>
-  </tr>
-  <tr>
-    <td>Maddox has moved up on the chain yet again</td>
-    <td><a href="/publisherportal/users/AydenMarusiodis/sub3.html">View Submission</a></td>
-  </tr>
-
-</tbody></table>
-
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
-
-
-</div></div>
+<h3 style = "text-align: center">Your account has been terminated</h3>
+<p style = "text-align: center">Reason: Your account has been terminated for due to multiple infractions on your account.</p>
 
 </body>
 </html>

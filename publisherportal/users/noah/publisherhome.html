@@ -146,6 +146,30 @@
     <td>Florida man poops on grandmother in Wendy's drive through</td>
     <td><a href="/publisherportal/users/noah/sub1.html">View Submission</a></td>
   </tr>
+  <tr>
+    <td>Trump and Biden found kissing</td>
+    <td><a href="/publisherportal/users/noah/sub2.html">View Submission</a></td>
+  </tr>
+  <tr>
+    <td>North Korea Threatens to send baby pics of its leader.</td>
+    <td><a href="/publisherportal/users/noah/sub3.html">View Submission</a></td>
+  </tr>
+  <tr>
+    <td>China admits to creating covid 19.</td>
+    <td><a href="/publisherportal/users/noah/sub4.html">View Submission</a></td>
+  </tr>
+  <tr>
+    <td>Maddox is very sus</td>
+    <td><a href="/publisherportal/users/noah/sub5.html">View Submission</a></td>
+  </tr>
+  <tr>
+    <td>A potato the size of a small dog is found in New Zealand (Real)</td>
+    <td><a href="/publisherportal/users/noah/sub6.html">View Submission</a></td>
+  </tr>
+  <tr>
+    <td>gramma is racist</td>
+    <td><a href="/publisherportal/users/noah/sub7.html">View Submission</a></td>
+  </tr>
 
 </tbody></table>
 
@@ -172,6 +196,91 @@ function myFunction() {
 
 
 </div></div>
+
+<br>
+
+<h3 style = "text-align: center">Infractions</h3>
+<p style = "text-align: center">You can see all of your infractions below, if you get 5 or more infractions your account will be terminated.</p>
+
+<div class="container mt-3">
+
+  <input type="text" id="Input" onkeyup="Function()" placeholder="Search for infractions.." title="Type in a name">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#Input {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#Table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#Table th, #Table td {
+  text-align: left;
+  padding: 12px;
+}
+
+#Table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#Table tr.header, #Table tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+
+<table id="Table">
+  <tbody><tr class="header">
+    <th style="width:60%;">Infraction Reason</th>
+    <th style="width:40%;">Date of Offense</th>
+  </tr>
+  <tr>
+    <td>Added additional characters to submission to make it longer</td>
+    <td>November 9th, 2021</td>
+  </tr>
+  <tr>
+    <td>Added additional characters to submission to make it longer</td>
+    <td>November 9th, 2021</td>
+  </tr>
+
+</tbody></table>
+
+<script>
+function Function() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("Input");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("Table");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<br><br>
 
 </body>
 </html>
